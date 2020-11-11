@@ -8,7 +8,7 @@ body {
 }
 
 header {
-  fonr-size: 64pt;
+  font-size: 64pt;
   font-weight: bold;
   text-align: right;
   letter-spacing: -8px;
