@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 
 class Footer extends Component {
-  render9) {
+  render() {
     return (
       <footer>
         <div>{this.props.footer}</div>

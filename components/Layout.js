@@ -1,7 +1,7 @@
-import React, { Compnent } from 'react';
+import React, { Component } from 'react';
 import Header from './Header';
 import Footer from './Footer';
-import Style from '../static/Style';
+import style from '../static/Style';
 
 class Layout extends Component {
 

@@ -39,7 +39,7 @@ h1 {
 
 p {
   margin: 0px;
-  color: #666;
+  color: #669;
   font-size: 16pt;
 }
 
