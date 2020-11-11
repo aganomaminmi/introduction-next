@@ -24,8 +24,6 @@ footer {
   margin: 50px 0 10px 0;
   position: relative;
   bottom: 10px;
-  right: 10px;
-  left: 10px;
 }
 
 h1 {
