@@ -33,7 +33,7 @@ function calcReduce(state, action) {
    let number = [...state.number];
    number.unshift(newNum);
 
-   let result = (state.result * 1) + (newNum * 1);
+   let result = Number(state.result) + Number(newNum);
 
    return {
        message: 'ENTER',
