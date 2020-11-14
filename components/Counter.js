@@ -17,7 +17,7 @@ class Counter extends Component {
       if (e.shiftKey) {
           return this.props.dispatch({ type: 'DECREMENT' });
       } else {
-          return this.props.dispatch({ type: 'DECREMENT' });
+          return this.props.dispatch({ type: 'INCREMENT' });
       }
   }
 
