@@ -1,24 +1,16 @@
+import Link from 'next/link';
+import Layout from '../components/Layout';
+import Image from "../static/imgComponents/Image";
+import Counter from "../components/Counter";
 
-export default () => <div>
-  <style jsx>{`
-  h1 {
-    font-size: 72pt;
-    font-weight: bold;
-    text-align: right;
-    letter-spacing: -8px;
-    color: #f0f0f0;
-    margin: -40px 0px;
-  }
-
-
-  p {
-    margin: 0px;
-    color: #066;
-    font-size: 16pt;
-  }
-
-  `}</style>
-  <h1>Next.js</h1>
-  <p>Welcome to next.js!</p>
-  <p>これはビルトインCSSによるスタイルです。</p>
-</div>
+export default () => (
+  <Layout header="Next" title="Top page.">
+    <p>Welcome to next.js!</p>
+      <Image fname="logo_kintone_mark_rgb.png" size="250" />
+      <Counter />
+    <hr/>
+    <Link href="./other">
+      <button> go to Other &gt;&gt;</button>
+    </Link>
+  </Layout>
+);
