@@ -26,6 +26,7 @@ footer {
   bottom: 10px;
 }
 
+
 h1 {
   font-size: 22pt;
   font-weight: bold;

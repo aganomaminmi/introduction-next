@@ -1,5 +1,6 @@
 .git
 .next
+.idea
 node_modules
 out
 package-lock.json
