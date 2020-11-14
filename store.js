@@ -11,7 +11,7 @@ const initial = {
 function counterReducer (state = initial, action) {
     switch (action.type) {
         case 'ENTER':
-            calcReduce(state, action);
+            return calcReduce(state, action);
         case 'RESET':
             return {
                 message: 'RESET',
