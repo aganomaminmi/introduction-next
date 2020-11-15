@@ -26,8 +26,8 @@ class Calc extends Component {
     }
 
     onKeyPress(e) {
-        if (e.keyCode === 13) {
-            this.doAction()
+        if (event.keyCode === 13) {
+            this.doAction(e);
         }
     }
 
