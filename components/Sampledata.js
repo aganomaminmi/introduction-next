@@ -22,7 +22,7 @@ class SampleData extends Component {
         let ref = db.ref('sample');
         let self = this;
         ref.orderByKey()
-            .limitToFirst(10)
+            .limitToFirst(30)
             .on('value', (snapshot) => {
                 self.setState({
                     data: snapshot.val()
